@@ -1,5 +1,6 @@
 import pickle
 import streamlit as st
+import sklearn
 
 # Comparing the original model results to the pickled model
 model = pickle.load(open('model.pkl','rb'))
@@ -84,7 +85,7 @@ array_st.extend(genre_machine(genres_st))
 predicted_gross = model.predict([array_st])
 
 st.write(f"Looking into my magic crystal ball, I predict that {title_st} will make (or would have made)"
-         f" ${round(predicted_gross[0]):,} million at the box office!")
+         f" ${round(predicted_gross[0]):,} at the box office!")
 
 # This is for internal testing
 # st.write(f"Your movie title: {title_st}")
