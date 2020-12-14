@@ -28,7 +28,7 @@ month_st = st.selectbox("Choose your release month", options = months)
 producer_st = st.text_input("Who is producing your film?")
 big_six_st = st.checkbox("Is this producer one of the 'big six' \n "
                          "(20th Century Fox/WarnerBros./Universal/Disney/Paramount/Sony)")
-black_list_st = st.checkbox("Did you script appear on the Hollywood 'Blacklist' of promising scripts?")
+black_list_st = st.checkbox("Did your script appear on the Hollywood 'Blacklist' of promising scripts?")
 runtime_st = st.slider("How long is your film going to be? (minutes)", 1, 300)
 days_st = st.slider("How many days do you expect to have your film in theaters?", 1, 500 )
 theaters_st = st.slider("How many theaters will you have the film in?", 1, 4000)
