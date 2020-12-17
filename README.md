@@ -12,7 +12,7 @@ In this repo you will find the following files:
 The data is a combination of data I scraped along with a kaggle [dataset](https://www.kaggle.com/ardenthira/hollywood-black-list-20082017) containing all of the films featured on the ["Hollywood Blacklist"](https://blcklst.com/) of promising scripts.
 
 
-## Deployment with Streamlit App via and AWS EC2 Instance
+## Deployment with Streamlit App via an AWS EC2 Instance
 I successfully deployed this model to the web by creating a python file containing the pickled model results and the code necessary to input variables needed for a prediction via the user-friendly Streamlit library! The code for this deployment can be found in the 'box_office_stream_deploy.py' file.
 
 The current deployment is running with a detatched TMUX session on an AWS free tier server. Find it [here](http://3.87.139.164:8501/)
