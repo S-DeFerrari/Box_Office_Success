@@ -15,6 +15,6 @@ The data is a combination of data I scraped along with a kaggle [dataset](https:
 ## Deployment with Streamlit App via an AWS EC2 Instance
 I successfully deployed this model to the web by creating a python file containing the pickled model results and the code necessary to input variables needed for a prediction via the user-friendly Streamlit library! The code for this deployment can be found in the 'box_office_stream_deploy.py' file.
 
-The current deployment is running with a detatched TMUX session on an AWS free tier server. Find it [here](http://3.87.139.164:8501/)
+This app was first deployed via a detatched TMUX session on an AWS free tier server. It now lives on Streamlit Share! Find it [here](https://share.streamlit.io/s-deferrari/box-office-success/box_office_stream_deploy.py)
 
 ![](web_app.png)
